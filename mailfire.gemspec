@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Mailfire::VERSION
   s.authors     = ["ryanlower"]
   s.email       = ["ryan@academia.edu"]
-  s.homepage    = "http://academia.edu"
+  s.homepage    = "https://github.com/academia-edu/mailfire"
   s.summary     = %q{Send mail to campfire rooms}
   s.description = %q{Send mail to campfire rooms}
 
