@@ -40,7 +40,11 @@ module Mailfire
       @rooms.each do |room|
         room.speak "To: #{mail.to}, From: #{mail.from}"
         room.speak mail.subject
-        room.paste mail.text_part.to_s
+        if mail.multipart?
+          room.paste mail.text_part.to_s
+        else
+          room.paste mail.body
+        end
       end
     end
   
