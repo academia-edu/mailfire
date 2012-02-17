@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["ryan@academia.edu"]
   s.homepage    = "https://github.com/academia-edu/mailfire"
   s.summary     = %q{Send mail to campfire rooms}
-  s.description = %q{Send mail to campfire rooms}
+  s.description = %q{When you don't want to send emails for real, but still want an easy way to sanity check the content, 'deliver' them to campfire}
 
   s.rubyforge_project = "mailfire"
 
