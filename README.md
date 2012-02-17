@@ -10,7 +10,7 @@ ActionMailer::Base.add_delivery_method :campfire,
   room: 'mail'
 
 if Rails.env.development?
-  ActionMailer::Base.delivery_method = :ses
+  ActionMailer::Base.delivery_method = :campfire
 end
 ```
 
